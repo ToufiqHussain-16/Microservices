@@ -1,2 +1,12 @@
 server:
   port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/user-booking?createDatabaseIfNotExist=true
+    username: root
+    password: Toufiq@16
+
+  jpa:
+    hibernate:
+      ddl-auto: update
